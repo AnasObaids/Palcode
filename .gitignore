@@ -1,0 +1,19 @@
+# Ignore virtual environment
+venv/
+
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+
+# Django database
+*.sqlite3
+db.sqlite3
+
+# Environment variables (if using)
+.env
+
+# Log files
+*.log
+
+
+static/

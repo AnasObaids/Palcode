@@ -1,0 +1,9 @@
+{% extends 'main/base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h2>Welcome to Palcode</h2>
+<p>We provide smart accounting solutions tailored for small and medium businesses. Try our featured product: <strong>Manager</strong>.</p>
+<a href="{% url 'products' %}" class="button">Explore Manager →</a>
+{% endblock %}
